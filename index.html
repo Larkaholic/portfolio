@@ -4,8 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Larkaholic</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css\styles.css">
 </head>
-<body>
-    
+<body class="bg-gray-400">
+    <header class="glass-header flex justify-evenly gap-96 p-4">
+        <div class="">
+            <img src="" alt="subLogo" onclick="navToEvent('index.html')" style="cursor: pointer">
+        </div>
+        <nav class="flex gap-10">
+            <ul>Home</ul>
+            <ul>Experience</ul>
+            <ul>Projects</ul>
+            <ul>About</ul>
+        </nav>
+    </header>
+
+    <section id="intro" class="flex max-h-screen grid-cols-2 justify-evenly">
+        <div class="info flex glass-header flex-col">
+            <span class="font-medium text-center text-2xl p-5 mt-24">
+                Hi!
+            </span>
+            <span class="font-medium text-center text-2xl p-5 mt-20">
+                Aspiring full-stack dev
+            </span>
+            <span class="font-bold text-center text-6xl p-3">
+                ORILLOS, Lark
+            </span>
+        </div>
+        <div class="flex glass-header">
+            <span class="w-full object-cover">
+                <img src="img\462569163_1245249999952882_8979312172670916571_n.jpg" alt="myImage" class="myImage">
+            </span>
+        </div>
+    </section>
+    <section class="h-full">
+
+    </section>
 </body>
 </html>
